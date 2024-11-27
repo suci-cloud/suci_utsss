@@ -1,0 +1,154 @@
+/* styles.css */
+
+/* Reset beberapa gaya default */
+body, h1, h2, h3, h4, p, ul, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya umum untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #a8d1f5; /* HoneyDew */
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background: #524cc6; /* Green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Sesuaikan ukuran logo */
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk navigasi */
+nav {
+    background: #1e1e82; /* Orange */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #FF5722; /* Deep Orange */
+}
+
+/* Gaya untuk konten utama */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #9a95f3; /* Light Cyan */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk formulir */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Membolehkan pengguna untuk mengubah ukuran vertikal */
+}
+
+/* Gaya untuk tombol */
+button {
+    background: #32CD32; /* LimeGreen */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #228B22; /* ForestGreen */
+}
+
+/* Gaya untuk footer */
+footer {
+    background: #524cc6; /* SaddleBrown */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gaya untuk tautan di footer */
+footer a {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media-icons {
+    list-style-type: none; /* Menghilangkan bullet */
+    padding: 0; /* Menghilangkan padding default */
+    display: flex; /* Mengatur daftar menjadi flex */
+    justify-content: center; /* Menyelaraskan ke tengah */
+    margin-top: 10px; /* Jarak atas */
+}
+
+.social-media-icons li {
+    margin: 0 15px; /* Jarak antar item */
+}
+
+.social-media-icons a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: #333; /* Warna teks */
+    font-size: 18px; /* Ukuran font */
+    display: flex; /* Mengatur agar ikon dan teks sejajar */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+}
+
+.social-media-icons a img {
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+    width: 24px; /* Ukuran ikon */
+    height: 24px; /* Ukuran ikon */
+}
+
+.social-media-icons a:hover {
+    color: #FF9800; /* Warna saat hover */
+}  

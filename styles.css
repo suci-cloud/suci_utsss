@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Reset beberapa gaya default */
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #a8d1f5; /* AliceBlue */
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background: #524cc6; /* Turquoise */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Gaya untuk navigasi */
+nav {
+    background: #1e1e82; /* Coral */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #f86d03; /* OrangeRed */
+}
+
+/* Gaya untuk kontainer */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Gaya untuk sidebar */
+.sidebar {
+    flex: 1;
+    background:#9a95f3 ; /* SlateBlue */
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Gaya untuk main content */
+main {
+    flex: 3;
+    background: #9a95f3; /* Tomato */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk footer */
+footer {
+    background: #524cc6; /* MediumSeaGreen */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gaya untuk artikel */
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #000000; /* GoldenRod */
+    border-radius: 5px;
+}
+
+article h4 {
+    margin-bottom: 10px;
+}
+
+article a {
+    color: #000000; /* MediumPurple */
+}
+
+article a:hover {
+    text-decoration: underline;
+}
